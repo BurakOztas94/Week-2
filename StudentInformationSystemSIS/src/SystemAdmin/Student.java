@@ -58,7 +58,6 @@ public class Student {
                 }
         }
 
-
     void isPass ()
         {
             this.average = ( ( ( ( this.c1.note + this.c2.note + this.c3.note ) / 3.0 ) * 0.80 )           //Sozlu notu bu kısıma eklenmiştir.

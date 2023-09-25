@@ -16,8 +16,8 @@ public class Main {
             math.addTeacher ( t3 );
 
             Student s1=new Student ( "İnek Şaban","1235","4",history ,physics,math);
-            s1.addBulkExamNote ( 100,78,50 );
-            s1.addBulkSozluNote ( 100,100,100 );
+            s1.addBulkExamNote ( 100,100,100 );
+            s1.addBulkSozluNote ( 50,50,50 );
             s1.isPass ();
 
             Student s2=new Student ( "Güdük Necmi","2564","4",history ,physics,math);
